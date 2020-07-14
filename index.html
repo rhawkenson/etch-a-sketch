@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" type="text/css">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Raleway&display=swap" rel="stylesheet">
     
     <title>Etch-A-Sketch</title>
 </head>
 
 <body>
     <h1 id='heading'>Etch-A-Sketch</h1>
+    <p>Squares per row:  <input type="text" placeholder="25"><button id="rebuild">Rebuild</button></p>
+    
+
     <div id='colors'>
-        <button>Black</button>
-        <button>Eraser</button>
-        <button>Rainbow</button>
-        <button>Pink</button>
-        <button>Green</button>
-        <button>Grayscale</button>
+        <button id="black">Black</button>
+        <button id="eraser">Eraser</button>
+        <button id="rainbow">Rainbow</button>
+        <button id="pink">Pink</button>
+        <button id="green">Green</button>
+        <button id="grayscale">Grayscale</button>
     </div>
+    
+    <div id="grid-container"></div>
+
 </body>
 
 <script src="script.js"></script>

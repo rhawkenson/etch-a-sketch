@@ -2,11 +2,61 @@
 
 body{
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
-h1{
-    font-family: 'Modak';
+
+#heading{
+    font-family: 'Fredoka One', cursive;
 }
+
 
 button{
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    height: 30px; 
+    width: 80px;
+    font-weight: 800;
+    box-shadow: 0 0 1rem rgb(204, 201, 201);
+    margin: 5px;
+    display: inline;
+    position: static;
 }
+
+button:hover{
+    box-shadow: 0 0 1rem rgb(109, 106, 106);
+}
+
+#rebuild{
+    background: linear-gradient(45deg, rgb(182, 182, 228), rgb(103, 103, 230));
+}
+
+#black{
+    background-color: black;
+    color: white;
+}
+
+#eraser{
+    background-color: white;
+}
+
+#rainbow{
+    background: linear-gradient(45deg, pink, red, yellow, green, blue);
+    color: white;
+}
+
+#pink{
+    background: linear-gradient(45deg, pink, rgb(245, 98, 122));
+}
+
+#green{
+    background: linear-gradient(45deg, rgb(120, 228, 120), green);
+}
+
+#grayscale{
+    background: linear-gradient(45deg, rgb(165, 162, 162), grey, black);
+    color: white;
+}
+
