@@ -3,11 +3,14 @@
 body{
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    background-color: rgb(183, 210, 243);
+    color: white;
 }
 
 
 #heading{
     font-family: 'Fredoka One', cursive;
+    color: white;
 }
 
 
@@ -19,32 +22,42 @@ button{
     height: 30px; 
     width: 80px;
     font-weight: 800;
-    box-shadow: 0 0 1rem rgb(204, 201, 201);
+    box-shadow: 0 0 1rem rgb(138, 164, 197);
     margin: 5px;
     display: inline;
     position: static;
+    color: white;
 }
 
 button:hover{
-    box-shadow: 0 0 1rem rgb(109, 106, 106);
+    transform: scale(1.05);
+}
+
+button:active, #eraser:active{
+    transform: scale(1);
 }
 
 #rebuild{
-    background: linear-gradient(45deg, rgb(182, 182, 228), rgb(103, 103, 230));
+    background: linear-gradient(45deg, rgb(137, 164, 223), rgb(80, 80, 233));
+}
+
+#colors{
+    margin-bottom: 20px;
+    display: inline-block;
+    white-space: nowrap;
 }
 
 #black{
     background-color: black;
-    color: white;
 }
 
 #eraser{
     background-color: white;
+    color: black;
 }
 
 #rainbow{
     background: linear-gradient(45deg, pink, red, yellow, green, blue);
-    color: white;
 }
 
 #pink{
@@ -57,6 +70,14 @@ button:hover{
 
 #grayscale{
     background: linear-gradient(45deg, rgb(165, 162, 162), grey, black);
-    color: white;
+}
+
+#grid-container{
+    background-color: white;
+    border: 1px solid gray;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    margin: 0 auto;
 }
 
