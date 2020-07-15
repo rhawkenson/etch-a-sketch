@@ -48,7 +48,7 @@ button:active, #eraser:active{
     background: linear-gradient(45deg, rgb(137, 164, 223), rgb(80, 80, 233));
 }
 
-#reset{
+#random{
     background: linear-gradient(45deg, rgb(187, 184, 184), rgb(114, 112, 112));
 }
 
@@ -85,7 +85,7 @@ button:active, #eraser:active{
 
 #grid-container{
     background-color: white;
-    border: 1px solid gray;
+    border: .5px solid gray;
     height: 500px;
     width: 500px;
     display: grid;
