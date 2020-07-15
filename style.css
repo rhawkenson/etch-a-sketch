@@ -1,6 +1,4 @@
-*{
-    border: 1px solid red;
-}
+
 
 
 body{
@@ -46,7 +44,7 @@ button:active, #eraser:active{
     transform: scale(1);
 }
 
-#rebuild{
+#build{
     background: linear-gradient(45deg, rgb(137, 164, 223), rgb(80, 80, 233));
 }
 
@@ -90,8 +88,10 @@ button:active, #eraser:active{
     border: 1px solid gray;
     height: 500px;
     width: 500px;
-    display: flex;
+    display: grid;
     margin: 0 auto;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
 }
 
 
