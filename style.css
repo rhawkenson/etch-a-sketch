@@ -1,3 +1,6 @@
+*{
+    border: 1px solid red;
+}
 
 
 body{
@@ -11,8 +14,14 @@ body{
 #heading{
     font-family: 'Fredoka One', cursive;
     color: white;
+    font-size: 50px;
+    margin: 0;
 }
 
+input{
+    width: 200px;
+    height: 15px;
+}
 
 button{
     font-family: 'Raleway', sans-serif;
@@ -39,6 +48,10 @@ button:active, #eraser:active{
 
 #rebuild{
     background: linear-gradient(45deg, rgb(137, 164, 223), rgb(80, 80, 233));
+}
+
+#reset{
+    background: linear-gradient(45deg, rgb(187, 184, 184), rgb(114, 112, 112));
 }
 
 #colors{
@@ -80,4 +93,5 @@ button:active, #eraser:active{
     display: flex;
     margin: 0 auto;
 }
+
 
