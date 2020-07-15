@@ -6,6 +6,7 @@ const eraser = document.getElementById('eraser');
 const rainbow = document.getElementById('rainbow');
 const pink = document.getElementById('pink');
 const green = document.getElementById('green');
+const blue = document.getElementById('blue');
 const grayscale = document.getElementById('grayscale');
 const user = document.getElementById('user');
 let userChoice = document.querySelectorAll('.color');
@@ -36,6 +37,10 @@ pink.onclick = ()=>{
 
 green.onclick = ()=>{
     drawColor = '21,176,37';
+    buildColor();
+}
+blue.onclick = ()=>{
+    drawColor = '30, 121, 182';
     buildColor();
 }
 

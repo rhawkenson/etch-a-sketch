@@ -79,6 +79,10 @@ button:active, #eraser:active{
     background: linear-gradient(45deg, rgb(120, 228, 120), green);
 }
 
+#blue{
+    background: linear-gradient(45deg, rgb(120, 221, 228), rgb(30, 121, 182));
+}
+
 #grayscale{
     background: linear-gradient(45deg, rgb(165, 162, 162), grey, black);
 }
